@@ -7,7 +7,7 @@ from django.core.validators import MaxValueValidator,MinLengthValidator
 # from django.urls import reverse
 # user=settings.AUTH_USER_MODEL
 STATE_CHOICE=(
-    ('Andaman & Nicobar Islands','Andaman & Nicobar Islands'),
+    ('Andaman and Nicobar Islands','Andaman and Nicobar Islands'),
     ('Andhara Pardesh','Andhara Pardesh'),
     ('Arunachal Pardesh','Arunachal Pardesh'),
     ('Asam','Asam'),
