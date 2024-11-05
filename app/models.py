@@ -52,7 +52,7 @@ def __str__(self):
 
 CATEGORY_CHOICE=(
      ('V','Vegetable'),
-     ('F','Fruits'),#Lapto
+     ('F','Fruits'),
     ('TV','Top Vegetable'),
     ('BV','Bottom Vegetable'),
 
