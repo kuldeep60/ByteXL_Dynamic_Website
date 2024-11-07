@@ -81,9 +81,9 @@ class Cart(models.Model):
     def __str__(self) :
         return str(self.id)
 
-    # @property
-    # def total_cost(self):
-    #     return self.quantity*self.product.discount_price
+    @property
+    def total_cost(self):
+        return self.quantity*self.product.discount_price
     
 
 
@@ -104,6 +104,6 @@ class OrderPlaced(models.Model):
     
     status=models.CharField(max_length=50,choices=STATE_CHOICE,default='Pending')
 
-    # @property
-    # def total_cost(self):
-    #     return self.quantity*self.product.discount_price
+    @property
+    def total_cost(self):
+        return self.quantity*self.product.discount_price
