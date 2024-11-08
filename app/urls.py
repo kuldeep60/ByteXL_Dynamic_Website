@@ -21,8 +21,8 @@ urlpatterns = [
     path('address/', views.address, name='address'),
     path('orders/', views.orders, name='orders'),
  
-    # path('Vegetable/', views.Vegetable, name='Vegetable'),
-    # path('Fruits/', views.Fruits, name='Fruits'),
+    path('Vegetable/', views.Vegetable, name='Vegetable'),
+    path('Fruits/', views.Fruits, name='Fruits'),
     path('TopVegetable/<slug:data>', views.TopVegetable, name='TopVegetable'),
     path('TopFruits/<slug:data>', views.TopFruits, name='TopFruits'),
     path('checkout/', views.checkout, name='checkout'),
